@@ -1,0 +1,24 @@
+Package: TIPC
+Title: Tumor-Immune Partitioning and Clustering
+Version: 0.0.0.9000
+Authors@R: c(person("MaiChan", "Lau", email = "mclau@bwh.harvard.edu", role = c("aut", "cre")),
+    person("Jonathan", "Nowak", email = "janowak@bwh.harvard.edu", role = c("aut")),
+    person("Shuji", "Ogino", email = "SOGINO@BWH.HARVARD.EDU", role = c("aut")))
+Description: An R package for unsupervised characterization of immune cells in tumor microenvirontment.
+Depends: R (>= 3.5.3)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    spatstat,
+    ConsensusClusterPlus,
+    graphics,
+    plyr,
+    grDevices,
+    utils,
+    ComplexHeatmap,
+    randomcoloR,
+    grid,
+    ggplot2,
+    tidyr
+RoxygenNote: 6.1.1
